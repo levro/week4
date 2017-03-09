@@ -1,11 +1,15 @@
 package com.demo;
 
 public class OuterClass {
-	public static class NestedClass{
+	private class InnerClass{
 		void test(){
 			
 		}
 		
+	}
+	
+	public void dmm(){
+		InnerClass innr = new InnerClass();
 	}
 
 }
